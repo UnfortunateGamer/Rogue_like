@@ -22,7 +22,7 @@ namespace jeu_de_role
             monstre.AddRange((IEnumerable<Monstre>)NPC.leMonstre().Cast<Monstre>());
 
 
-
+           
             Console.WriteLine("t'es au bout");
 
             //Figth.combat(personnage,monstre);

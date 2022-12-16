@@ -46,7 +46,7 @@ namespace Rogue_like
             var random = new Random();
             var valeurAleatoire = random.Next(0, 8);
             var crapule = crapules[valeurAleatoire];
-
+            
             crapule.Afficher();
             return new List<Monstre> { crapule };
         }
